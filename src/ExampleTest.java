@@ -1,6 +1,8 @@
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ExampleTest {
+
+    @org.junit.jupiter.api.Test
     public void testMultiplication() {
         Dollar five = new Dollar(5);
         five.times(2);
@@ -15,5 +17,6 @@ public class ExampleTest {
     2) Добавим конструктор в класс Dollar
     3) Добавим метод times в класс Dollar
     4) создать поле (переменную) amount в класс Dollar
+    5) Добавить junit
 2 шаг
  */
