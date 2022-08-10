@@ -30,6 +30,11 @@ public class ExampleTest {
         assertEquals("USD", Money.dollar(1). currency());
         assertEquals("CHF", Money.franc(1). currency());
     }
+
+    @org.junit.jupiter.api.Test
+    public void testDifferentClassEquality() {
+        assertTrue(new Money(10, "CHF"). equals(new Franc(10, "CHF")));
+    }
 }
 
 /*
