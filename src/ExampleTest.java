@@ -20,4 +20,6 @@ public class ExampleTest {
     5) Добавить junit
 2 шаг
     4) записать 10 в поле amount в класс Dollar
+3 шаг
+    5) переместим поле amount в метод times
  */
