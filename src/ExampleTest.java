@@ -19,4 +19,5 @@ public class ExampleTest {
     4) создать поле (переменную) amount в класс Dollar
     5) Добавить junit
 2 шаг
+    4) записать 10 в поле amount в класс Dollar
  */
