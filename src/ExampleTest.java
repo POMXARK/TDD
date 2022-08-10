@@ -9,6 +9,23 @@ public class ExampleTest {
         assertEquals(10, five.amount);
     }
 
+    @org.junit.jupiter.api.Test
+    public void testMultiplication2() {
+        Dollar five = new Dollar(5);
+        five.times(2);
+        assertEquals(10, five.amount);
+        five.times(3);
+        assertEquals(15, five.amount);
+    }
+
+    @org.junit.jupiter.api.Test
+    public void testMultiplication3() {
+        Dollar five = new Dollar(5);
+        Dollar product = five.times(2);
+        assertEquals(10, product.amount);
+        product = five.times(3);
+        assertEquals(15, product.amount);
+    }
 }
 
 /*
