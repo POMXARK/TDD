@@ -22,4 +22,6 @@ public class ExampleTest {
     4) записать 10 в поле amount в класс Dollar
 3 шаг
     5) переместим поле amount в метод times
+4 шаг
+    Рефакторинг класса Dollar
  */
