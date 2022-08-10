@@ -6,4 +6,8 @@ public class Dollar extends Money {
         return new Dollar(amount * multiplier);
     }
 
+    String currency() {
+        return "USD";
+    }
+
 }
