@@ -23,7 +23,7 @@ class Money {
         return amount == money.amount && currency(). equals(money.currency());
     }
 
-    public Money times(int multiplier) {
-        return null;
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
 }
