@@ -23,6 +23,13 @@ class Money implements Expression{
         return amount == money.amount && currency(). equals(money.currency());
     }
 
+    public Money reduce(Bank bank, String to) {
+        int rate = bank.rate(currency, to);
+        return new Money(amount / rate, to);
+    }
+
+
+
     Money times(int multiplier) {
         return new Money(amount * multiplier, currency);
     }
